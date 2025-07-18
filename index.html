@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Boscoteth Web Development</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --primary: #0052cc;
+  --primary-light: #4c9aff;
+  --background: #f5f7fa;
+  --card-bg: #fff;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, var(--background), #e2e8f0);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: var(--primary);
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+header .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #fff;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+header .cta:hover {
+  background: var(--primary-light);
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: -1rem;
+}
+
+nav a {
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav a:hover {
+  background: var(--primary-light);
+  color: #fff;
+}
+
+section {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-top: 0;
+  color: var(--primary);
+  font-size: 1.8rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f1f5f9;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+
+.portfolio {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 39px;
+}
+
+.portfolio img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.portfolio img:hover {
+  transform: scale(1.03);
+}
+
+.contact a {
+  display: inline-block;
+  margin: 0.2rem 0;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 2rem 0;
+}
+.mypicture {
+  height: 6rem;
+  margin
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Boscoteth Web Development</h1>
+  <p>Simple. Affordable. Professional Websites.</p>
+  <a href="#contact" class="cta">Get Started</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="card">
+            <div class="card">
+          <img class="mypicture" src="project4.jpg" alt="CHIZZY BOSCO"></di>
+    <h2>About Me</h2>
+    <p>Hi! I'm Collins, founder of <strong>Boscoteth Web Development</strong>. I craft modern, fast, and responsive websites that help your business grow and stand out online — without breaking your budget.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="card">
+    <h2>Services</h2>
+    <ul>
+      <li>Static website development</li>
+      <li>Business portfolio sites</li>
+      <li>Personal blogs</li>
+      <li>Website redesign & updates</li>
+      <li>Basic SEO setup</li>
+      <li>Hosting & deployment assistance</li>
+    </ul>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="card">
+    <h2>Portfolio</h2>
+    <p>
+      <h3>Some projects I've worked on:
+      </h3></p>
+    <div class="portfolio">
+    A hotel project 
+      <img src="project1.jpg" alt="Project 1">
+    <div class="portfolio">
+
+<p>Elegant Hotel Web Page for a Modern Hospitality Brand
+
+I designed and developed a clean, user-friendly hotel web page to help my client showcase their rooms, amenities, and booking options in style. The site features a modern design with intuitive navigation, responsive layouts for all devices, and clear calls-to-action to drive more reservations. Guests can easily explore what the hotel offers and contact the management directly — making it a valuable online presence for the business.</p>
+</div>
+
+      <div class="portfolio">
+        <h3> A DJ Mix Website</h3>
+      <img src="project2.jpg" alt="Project 2">
+      
+
+<p>Vibrant DJ Mix Website for Music Lovers
+
+This project was all about energy and rhythm! I created a dynamic website for a professional DJ to share his latest mixes and connect with fans. The site lets visitors easily browse and download his hottest mixes, check out event dates, and get in touch for bookings. With a bold and colorful design, the website truly reflects the personality of the DJ and makes it easy for music lovers to access his work anytime.</p>
+</div>
+      <div class="portfolio">
+        <h3> An AI Chat Project</h3>
+      <img src="project3.jpg" alt="Project 3">
+      
+
+
+<p>Innovative AI Chat Project
+
+As part of a personal project, I built an interactive AI chat interface that demonstrates the power of conversational technology. The chat allows users to engage with a smart assistant capable of answering questions and providing helpful suggestions. This project showcases my ability to integrate AI APIs, design intuitive user experiences, and push the boundaries of modern web development. </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact Me</h2>
+    <p>Let's build your website today. Reach me through:</p>
+    <div class="contact">
+      📞 <a href="tel:+2347026567154">+884 00044433</a><br>
+      📧 <a href="mailto:boscothwebdev.com">bosco-web-dev@gmail.com</a><br>
+      💬 <a href="https://wa.me/2347026567154" target="_blank">WhatsApp Chat</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Boscoteth Web Development. All rights reserved.
+</footer>
+
+</body>
+</html>
